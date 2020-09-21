@@ -1,0 +1,22 @@
+.todo-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    &__title {
+        font-weight: bold;
+
+        &--completed {
+            text-decoration: line-through;
+            color: #8d8d8d;
+            font-weight: normal;
+        }
+    }
+
+    &__buttons {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: auto;
+    }
+}
